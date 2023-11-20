@@ -1,19 +1,16 @@
 {
-  "description": "プロジェクトの名前",
+  "description": "プロジェクの開発時のみ利用するライブラリの依存関係",
   "name": "techpit-vue-tetris",
-  "description": "プロジェクトのバージョン",
   "version": "0.0.0",
-  "description": "プロジェクト上で動作させるコマンド集",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "serve": "vite preview"
   },
-  "description": "プロジェクトで利用するライブラリの依存関係",
   "dependencies": {
-    "vue": "^3.2.6"
+    "vue": "^3.2.6",
+    "vue-router": "^4.2.5"
   },
-  "description": "プロジェクの開発時のみ利用するライブラリの依存関係",
   "devDependencies": {
     "@vitejs/plugin-vue": "^1.6.1",
     "@vue/compiler-sfc": "^3.2.6",
